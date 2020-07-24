@@ -25,21 +25,21 @@ const Contact = () => {
         <p>555-555-5555</p>
       </div> */}
       <div className="contact-form">
-        <strong>Contact Me</strong>
-        <div className='stuff'>
-          <img src={Message} alt='Message' className='icon'/>
+        <strong id="strongg">Contact Me</strong>
+        <div className="stuff">
+          <img src={Message} alt="Message" className="icon" />
           <p>Message Me</p>
         </div>
-        <div className='stuff'>
-          <img src={LinkedIn} className='icon'/>
+        <div className="stuff">
+          <img src={LinkedIn} className="icon" />
           <p>tobyH</p>
         </div>
-        <div className='stuff'>
-          <img src={Phone} className='icon'/>
+        <div className="stuff">
+          <img src={Phone} className="icon" />
           <p>555-555-5555</p>
         </div>
-        <div className='stuff'>
-          <img src={Mail} className='icon'/>
+        <div className="stuff">
+          <img src={Mail} className="icon" />
           <p>toby@gmail.com</p>
         </div>
       </div>
