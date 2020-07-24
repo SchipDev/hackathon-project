@@ -39,3 +39,9 @@ img {
 .contact-form {
     background-color: white;
 }
+
+
+.stuff {
+    display: flex;
+    flex-direction: row;
+}
