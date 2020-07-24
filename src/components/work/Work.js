@@ -4,9 +4,12 @@ import Compensation from './Compensation managment.jpg';
 import performance from './Performance-Appraisal.png';
 import talent from './talent-acquisition.jpg';
 import training from './Training and benefits.jpg';
+import Navbar from "../navbar/Navbar";
+
 
 const Work = () => {
   return (
+    <div>
     <div className="cards">
       <div className="card">
       <div className="card-inner">
@@ -101,7 +104,7 @@ const Work = () => {
     
   
    </div>
-    );
-};
+    </div>
+    )}
 
-export default Work;
+    export default Work;
