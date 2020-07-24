@@ -1,0 +1,19 @@
+.navbar {
+    border-style: solid;
+    border-color: #BBE0ED;
+    width: 50%;
+    
+}
+
+.button {
+    color: black;
+    text-decoration: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.button:hover {
+    text-decoration: underline;
+}
