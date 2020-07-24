@@ -43,5 +43,5 @@ img {
 
 .stuff {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
 }

@@ -1,13 +1,15 @@
 import React from "react";
-import './Contact.css'
-import Message from './Icon material-message.png'
-import LinkedIn from './Icon awesome-linkedin@2x.png'
-import Phone from './Icon awesome-phone.png'
-import Mail from './Icon ionic-ios-mail.png'
+import "./Contact.css";
+import Message from "./Icon material-message.png";
+import LinkedIn from "./Icon awesome-linkedin@2x.png";
+import Phone from "./Icon awesome-phone.png";
+import Mail from "./Icon ionic-ios-mail.png";
+import { Switch, Route } from "react-router-dom";
+import Navbar from "../navbar/Navbar";
 
 const Contact = () => {
   return (
-    <div className='contact-bar'>
+    <div className="contact-bar">
       {/* <strong>Contact Me</strong>
       <div className='icons'>
         <div>
@@ -22,7 +24,7 @@ const Contact = () => {
         <img src='https://www.pngkit.com/png/full/94-943942_593-transparent-background-phone-icon-white.png' alt='Phone' className='phone' />
         <p>555-555-5555</p>
       </div> */}
-      <div className='contact-form'>
+      <div className="contact-form">
         <strong>Contact Me</strong>
         <div className='stuff'>
           <img src={Message} alt='Message' className='icon'/>
@@ -40,10 +42,9 @@ const Contact = () => {
           <img src={Mail} className='icon'/>
           <p>toby@gmail.com</p>
         </div>
-
       </div>
     </div>
-  )
+  );
 };
 
 export default Contact;

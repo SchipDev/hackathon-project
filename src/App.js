@@ -11,7 +11,7 @@ class App extends Component {
         <Switch>
           <Route exact path="/" render={props => <Home {...props} />} />
           <Route exact path="/about" render={props => <About {...props} />} />
-          <Route exact path="/work" render={props => <Work {...props} />} />
+          <Route exact path="/contact" render={props => <Contact {...props} />} />
         </Switch>
       </div>
     );
