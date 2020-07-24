@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 import "./about.css";
+import { Switch, Route } from "react-router-dom";
+import Navbar from "../navbar/Navbar";
 class About extends Component {
   state = {
     showCards: false,
@@ -14,6 +16,7 @@ class About extends Component {
   render() {
     return (
       <div className="allAbout">
+        <Navbar />
         <div className="me">
           <div className="header">
             <h1>Toby Flenderson</h1>
